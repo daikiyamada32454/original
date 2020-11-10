@@ -1,0 +1,29 @@
+<%= render "shared/header" %>
+<li class='list'>
+   <%= link_to "#" do %>
+    <div class='item-img-content'>
+      <%= image_tag "sara.jpg", class: "item-img" %>
+    </div>
+        <div class='item-info'>
+          <h3 class='item-name'>
+            <%= "名前" %>
+          </h3>
+          <div class='item-price'>
+            <span><%= "枚数" %>枚</span>
+          </div>
+          <div class = 'item-remarks'>
+            <span><%= "備考欄" %></span>
+          </div>
+        </div>  
+  <% end %>
+</li>
+      <%# 商品がない場合のダミー %>
+      <%# 商品がある場合は表示されないようにしましょう %>
+<li class='list'>
+  <%= link_to '#' do %>
+     <%= image_tag "https://s3-ap-northeast-1.amazonaws.com/mercarimaster/uploads/captured_image/content/10/a004.png", class: "item-img" %>
+  <% end %> 
+</li>  
+      <%# //商品がある場合は表示されないようにしましょう %>
+      <%# /商品がない場合のダミー %>
+

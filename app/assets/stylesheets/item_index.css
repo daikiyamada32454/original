@@ -1,0 +1,11 @@
+.list{
+  display: flex;
+}
+
+
+.item-img{
+  width: 50vh;
+  margin-left: 50px;
+  margin-top: 150px;
+}
+

@@ -1,0 +1,15 @@
+<header class ='top-page-header'>
+ <div class = user>
+ <li><%= link_to "username",   class:"user-name"%></li>
+ <li><%= link_to 'ログアウト',class: "logout"%></li>
+ <li><%= link_to 'ログイン', calss:"login"%></li>
+ <li><%= link_to '新規登録', class:"sing-up"%>
+ </div>
+ <div class = 'search-bar-contents'>
+     <form class="search-form" action="#">
+     <input class='input-box' placeholder='キーワードから探す'>
+     <button class="search-button">
+        <%= image_tag "serach2.png", class:"search-icon" %>
+      </button>
+    </form>
+</header>
