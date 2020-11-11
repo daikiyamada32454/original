@@ -2,8 +2,8 @@
  <div class = user>
  <li><%= link_to "username",   class:"user-name"%></li>
  <li><%= link_to 'ログアウト',class: "logout"%></li>
- <li><%= link_to 'ログイン', calss:"login"%></li>
- <li><%= link_to '新規登録', class:"sing-up"%>
+ <li><%= link_to 'ログイン', new_user_session_path, calss:"login"%></li>
+ <li><%= link_to '新規登録',new_user_registration_path, class:"sing-up"%>
  </div>
  <div class = 'search-bar-contents'>
      <form class="search-form" action="#">
